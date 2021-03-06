@@ -11,9 +11,10 @@ from Utilities.Read_Config import Read_Config_File
 from Utilities.Database_Operations import DataBase_Operations
 
 
-class Test_Place_Order_New_User:
+class Test_Place_Order_PaperCheque_PaymentMethod:
+
     class_name = (__qualname__)
-    test_case_id = '2'
+    test_case_id = '3'
 
     Get_Data_From_SAP.get_data_from_json_to_excel()
 
@@ -32,13 +33,13 @@ class Test_Place_Order_New_User:
         self.home_page.click_summerdress_tab()
 
         self.womens_dress_lp = Womens_SummerDress_LP(self.driver)
-        self.womens_dress_lp.click_summerdress_image_banner()
+        self.womens_dress_lp.click_summerdress2_image_banner()
 
         self.cart_summary = Cart_Summary_Page(self.driver)
         self.cart_summary.click_continue_checkout_button()
 
         self.chkout_auth = Checkout_Auth_Page(self.driver)
-        self.chkout_auth.enter_email("mytestqa7@gmail.com")
+        self.chkout_auth.enter_email("mytestqa11@gmail.com")
 
         self.chkout_register = Checkout_RegisterUser_Page(self.driver)
         self.chkout_register.test_checkout_register_user("Ram","Chigari","ITC","Vijaynagar","Bangalore")
@@ -50,16 +51,20 @@ class Test_Place_Order_New_User:
         self.ship_conf.click_ship_conf()
 
         self.payment_confirm = Payment_Confirm_Page(self.driver)
-        self.payment_confirm.click_papercheck_payment_type()
+        self.payment_confirm.click_bankwire_payment_type()
 
-        message = self.driver.find_element_by_xpath("//p[text()='Your order on My Store is complete.']").text
-        if message == "Your order on My Store is complete.":
+        message = self.driver.find_element_by_xpath("//strong[text()='Your order on My Store is complete.']").text
+        if message == "Your order on My Store is comple.":
             db_query = "insert into test_results values ('" + self.test_case_id + "' , '" + self.class_name + "', NOW(), 'PASS')"
             DataBase_Operations.test_case_results(self.db_hostname, self.db_username, self.db_password, self.db_name,
                                                   db_query)
-            print("Test Case updated successfully")
+        else:
+            db_query = "insert into test_results values ('" + self.test_case_id + "' , '" + self.class_name + "', NOW(), 'FAIL')"
+            DataBase_Operations.test_case_results(self.db_hostname, self.db_username, self.db_password, self.db_name,
+                                                  db_query)
 
-            self.driver.close()
+        self.driver.close()
+
 
 
 

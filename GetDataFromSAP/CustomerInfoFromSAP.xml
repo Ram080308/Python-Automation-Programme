@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customers Version="4.30">
+   <Customer>
+      <CustomerId>6</CustomerId>
+      <CustomerGuid>cda433c1-e661-4f8d-af45-07f38aa31e8e</CustomerGuid>
+      <Email>customer13_xml@nopCommerce.com</Email>
+      <CompanyName>ITC Ltd</CompanyName>
+      <Password>123456</Password>
+      <PasswordFormatId>0</PasswordFormatId>
+      <PasswordSalt />
+      <IsTaxExempt>False</IsTaxExempt>
+      <AffiliateId>0</AffiliateId>
+      <VendorId>0</VendorId>
+      <Active>True</Active>
+      <IsGuest>False</IsGuest>
+      <IsRegistered>True</IsRegistered>
+      <IsAdministrator>False</IsAdministrator>
+      <IsForumModerator>False</IsForumModerator>
+      <CreatedOnUtc>03/13/2017 11:19:40</CreatedOnUtc>
+      <FirstName>Customer1</FirstName>
+      <LastName>insert1</LastName>
+      <Gender />
+      <Company />
+      <CountryId>0</CountryId>
+      <StreetAddress />
+      <StreetAddress2 />
+      <ZipPostalCode />
+      <City />
+      <County />
+      <StateProvinceId>0</StateProvinceId>
+      <Phone />
+      <Fax />
+      <VatNumber />
+      <VatNumberStatusId>0</VatNumberStatusId>
+      <TimeZoneId />
+      <Newsletter-in-store-1>False</Newsletter-in-store-1>
+      <Newsletter-in-store-2>False</Newsletter-in-store-2>
+      <AvatarPictureId>0</AvatarPictureId>
+      <ForumPostCount>0</ForumPostCount>
+      <Signature />
+   </Customer>
+   <Customer>
+      <CustomerId>6</CustomerId>
+      <CustomerGuid>cda433c1-e661-4f8d-af45-07f38aa31e8e</CustomerGuid>
+      <Email>customer23_xml@nopCommerce.com</Email>
+      <CompanyName>Infosys</CompanyName>
+      <Password>123456</Password>
+      <PasswordFormatId>0</PasswordFormatId>
+      <PasswordSalt />
+      <IsTaxExempt>False</IsTaxExempt>
+      <AffiliateId>0</AffiliateId>
+      <VendorId>0</VendorId>
+      <Active>True</Active>
+      <IsGuest>False</IsGuest>
+      <IsRegistered>True</IsRegistered>
+      <IsAdministrator>False</IsAdministrator>
+      <IsForumModerator>False</IsForumModerator>
+      <CreatedOnUtc>03/13/2017 11:19:40</CreatedOnUtc>
+      <FirstName>Customer2</FirstName>
+      <LastName>Insert2</LastName>
+      <Gender />
+      <Company />
+      <CountryId>0</CountryId>
+      <StreetAddress />
+      <StreetAddress2 />
+      <ZipPostalCode />
+      <City />
+      <County />
+      <StateProvinceId>0</StateProvinceId>
+      <Phone />
+      <Fax />
+      <VatNumber />
+      <VatNumberStatusId>0</VatNumberStatusId>
+      <TimeZoneId />
+      <Newsletter-in-store-1>False</Newsletter-in-store-1>
+      <Newsletter-in-store-2>False</Newsletter-in-store-2>
+      <AvatarPictureId>0</AvatarPictureId>
+      <ForumPostCount>0</ForumPostCount>
+      <Signature />
+   </Customer>
+   <Customer>
+      <CustomerId>6</CustomerId>
+      <CustomerGuid>cda433c1-e661-4f8d-af45-07f38aa31e8e</CustomerGuid>
+      <Email>customer33_xml@nopCommerce.com</Email>
+      <CompanyName>TCS</CompanyName>
+      <Password>123456</Password>
+      <PasswordFormatId>0</PasswordFormatId>
+      <PasswordSalt />
+      <IsTaxExempt>False</IsTaxExempt>
+      <AffiliateId>0</AffiliateId>
+      <VendorId>0</VendorId>
+      <Active>True</Active>
+      <IsGuest>False</IsGuest>
+      <IsRegistered>True</IsRegistered>
+      <IsAdministrator>False</IsAdministrator>
+      <IsForumModerator>False</IsForumModerator>
+      <CreatedOnUtc>03/13/2017 11:19:40</CreatedOnUtc>
+      <FirstName>Custmer3</FirstName>
+      <LastName>insert3</LastName>
+      <Gender />
+      <Company />
+      <CountryId>0</CountryId>
+      <StreetAddress />
+      <StreetAddress2 />
+      <ZipPostalCode />
+      <City />
+      <County />
+      <StateProvinceId>0</StateProvinceId>
+      <Phone />
+      <Fax />
+      <VatNumber />
+      <VatNumberStatusId>0</VatNumberStatusId>
+      <TimeZoneId />
+      <Newsletter-in-store-1>False</Newsletter-in-store-1>
+      <Newsletter-in-store-2>False</Newsletter-in-store-2>
+      <AvatarPictureId>0</AvatarPictureId>
+      <ForumPostCount>0</ForumPostCount>
+      <Signature />
+   </Customer>
+</Customers>

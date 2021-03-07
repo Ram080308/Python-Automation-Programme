@@ -39,7 +39,7 @@ class Test_Place_Order_PaperCheque_PaymentMethod:
         self.cart_summary.click_continue_checkout_button()
 
         self.chkout_auth = Checkout_Auth_Page(self.driver)
-        self.chkout_auth.enter_email("mytestqa909@gmail.com")
+        self.chkout_auth.enter_email("mytestdev1@gmail.com")
 
         self.chkout_register = Checkout_RegisterUser_Page(self.driver)
         self.chkout_register.test_checkout_register_user("Ram","Chigari","ITC","Vijaynagar","Bangalore")

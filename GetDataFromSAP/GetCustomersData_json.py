@@ -22,7 +22,7 @@ class Get_Data_From_SAP:
             last_name = cust_data[values]['username']
             all_last_names.append(last_name)
             emails = cust_data[values]['email']
-            all_emails.append(emails+'mik')
+            all_emails.append(emails+'nopj')
             street_name = cust_data[values]['address']['street']
             suite_name = cust_data[values]['address']['suite']
             address = street_name + " , " + suite_name

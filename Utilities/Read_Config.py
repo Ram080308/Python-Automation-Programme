@@ -34,6 +34,11 @@ class Read_Config_File:
         db_name = parser.get("Datebase details", "db_name")
         return db_name
 
+    @staticmethod
+    def get_back_office_url():
+        bo_url = parser.get("Nop Admin details" , "bo_url")
+        return bo_url
+
 
 
 

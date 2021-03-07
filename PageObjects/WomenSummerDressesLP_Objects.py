@@ -5,9 +5,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class Womens_SummerDress_LP:
-    SummerDressBanner_image_xpath = "(//img[@title='Printed Summer Dress'])[2]"
+    SummerDressBanner_image_xpath = "(//img[@title='Printed Summer Dress'])[1]"
     AddtoCart_button_xpath = "(//span[text()='Add to cart'])[1]"
-    SummerDressBanner2_image_xpath = "(//img[@title='Printed Summer Dress'])[3]"
+    SummerDressBanner2_image_xpath = "(//img[@title='Printed Summer Dress'])[2]"
     AddtoCart2_button_xpath = "(//span[text()='Add to cart'])[2]"
     ProceedToCheckout_button_xpath = "//a[@title='Proceed to checkout']"
 
